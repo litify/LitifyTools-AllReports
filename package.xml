@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+      <types>
+        <members>litify_pm__Intake__c.Total_Converted_Leads__c</members>
+        <members>litify_pm__Intake__c.Total_Questionnaires__c</members>
+        <members>litify_pm__Intake__c.Total_Retainer_Sent__c</members>
+        <members>litify_pm__Intake__c.Total_Under_Review__c</members>
+        <members>litify_pm__Intake__c.litify_tso_My_Intake__c</members>
+        <members>litify_pm__Matter__c.litify_tso_My_Matter__c</members>
+        <name>CustomField</name>
+    </types>
     <types>
         <members>Attorney</members>
         <members>Attorney/Attorney_Fees_This_Month_Ulw</members>
@@ -123,6 +132,10 @@
         <members>litify_pm__Litify_Matters/New_Matters_Opened_This_Month_gea</members>
         <members>litify_pm__Litify_Matters/Unpaid_Expenses_on_All_Open_Matters_D7M</members>
         <name>Report</name>
+    </types>
+    <types>
+        <members>Reports_Litify</members>
+        <name>ReportType</name>
     </types>
     <version>47.0</version>
 </Package>
