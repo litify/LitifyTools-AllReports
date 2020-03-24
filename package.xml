@@ -132,5 +132,12 @@
         <members>litify_pm__Litify_Matters/Unpaid_Expenses_on_All_Open_Matters_D7M</members>
         <name>Report</name>
     </types>
+        <types>
+        <members>Intakes_with_or_without_Activities</members>
+        <members>Intakes_with_or_without_Matters</members>
+        <members>Matter_Plans_with_Stages_and_Default_Matter_Tasks</members>
+        <members>Reports_Litify</members>
+        <name>ReportType</name>
+    </types>
     <version>47.0</version>
 </Package>
