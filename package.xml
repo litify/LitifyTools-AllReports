@@ -133,9 +133,6 @@
         <name>Report</name>
     </types>
         <types>
-        <members>Intakes_with_or_without_Activities</members>
-        <members>Intakes_with_or_without_Matters</members>
-        <members>Matter_Plans_with_Stages_and_Default_Matter_Tasks</members>
         <members>Reports_Litify</members>
         <name>ReportType</name>
     </types>
