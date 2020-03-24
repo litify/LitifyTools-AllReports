@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>litify_pm__Intake__c.Total_Converted_Leads__c</members>
+        <members>litify_pm__Intake__c.Total_Questionnaires__c</members>
+        <members>litify_pm__Intake__c.Total_Retainer_Sent__c</members>
+        <members>litify_pm__Intake__c.Total_Under_Review__c</members>
+        <members>litify_pm__Intake__c.litify_tso_My_Intake__c</members>
+        <members>litify_pm__Matter__c.litify_tso_My_Matter__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>Attorney</members>
         <members>Attorney/Attorney_Fees_This_Month_Ulw</members>
         <members>Attorney/Attorney_Fees_This_Year_kiU</members>
