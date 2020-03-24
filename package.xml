@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-      <types>
+    <types>
         <members>litify_pm__Intake__c.Total_Converted_Leads__c</members>
         <members>litify_pm__Intake__c.Total_Questionnaires__c</members>
         <members>litify_pm__Intake__c.Total_Retainer_Sent__c</members>
@@ -48,6 +47,7 @@
         <members>Case_Manager/Upcoming_Tasks_EZ4</members>
         <members>Case_Manager/Upcoming_Tasks_by_Assignee_1k0</members>
         <members>Case_Manager/Welcome_Calls_Pending_odo</members>
+        <members>Finance/Expenses_on_All_Open_Matters_by_CaseType_VBP</members>
         <members>Intake_Agent</members>
         <members>Intake_Agent/Average_Calls_per_Intake_by_Intake_Owner</members>
         <members>Intake_Agent/Calls_on_Intakes_Today11</members>
@@ -64,6 +64,7 @@
         <members>Intake_Agent/My_Intakes_Turned_Down_This_Week_LRI</members>
         <members>Intake_Agent/My_Intakes_Turned_Down_by_Reason_Today_CeN</members>
         <members>Intake_Management</members>
+        <members>Intake_Management/Active_Intakes_by_Owner_and_Status</members>
         <members>Intake_Management/All_Intakes_Referred_Out_This_Week_128</members>
         <members>Intake_Management/Avg_Calls_per_Intake_by_Owner_oes</members>
         <members>Intake_Management/Avg_Questionnaire_Time_by_Case_Type_DrS</members>
@@ -97,7 +98,11 @@
         <members>Management/Resolutions_Over_Time_Last_Year_HzY</members>
         <members>Management/Resolutions_Over_Time_This_Year_xYF</members>
         <members>Management/Total_Matters_Lit_vs_PreSuit_wMR</members>
+        <members>litify_pm__Litify/Active_Users</members>
+        <members>litify_pm__Litify/All_Reports</members>
+        <members>litify_pm__Litify/Completed_Activities_Last_30_Days</members>
         <members>litify_pm__Litify/Custom_Report_Modifications_2_Years_TCg</members>
+        <members>litify_pm__Litify/Custom_Report_Modifications_by_User</members>
         <members>litify_pm__Litify/Custom_Reports_Not_Run_Last_90_Days_Nf0</members>
         <members>litify_pm__Litify/Dial_Count_Intakes_Last_7_Days_Dash</members>
         <members>litify_pm__Litify/Funnel_by_Case_Type_Dashboard_070</members>
@@ -107,32 +112,88 @@
         <members>litify_pm__Litify/Intakes_Created_Yesterday_Dash</members>
         <members>litify_pm__Litify/Litify_Inventory_of_Reports_2To</members>
         <members>litify_pm__Litify/Login_Leaderboard_Past_Week</members>
+        <members>litify_pm__Litify/Open_Tasks_by_User</members>
         <members>litify_pm__Litify/RSRR_12_Months_Dashboard_qSo</members>
         <members>litify_pm__Litify/Sent_Emails_All</members>
         <members>litify_pm__Litify/Sent_Emails_Intakes_yy0</members>
         <members>litify_pm__Litify/Sent_Emails_Matters_CaT</members>
         <members>litify_pm__Litify/Settlements_by_Case_Type_wjp</members>
         <members>litify_pm__Litify/TD_s_This_Month_by_Reason_Dash</members>
+        <members>litify_pm__Litify/Tasks_Events_and_Activities</members>
+        <members>litify_pm__Litify/Total_Matter_Value_by_Source_and_Status</members>
+        <members>litify_pm__Litify/Total_Matter_Value_by_Source_and_Status1</members>
+        <members>litify_pm__Litify/Total_Matter_Value_by_Source_and_Status2</members>
         <members>litify_pm__Litify/Users_Logged_In</members>
         <members>litify_pm__Litify/Users_Logged_In_Today_kFH</members>
         <members>litify_pm__Litify/Users_without_a_login_5_days_ago_vCu</members>
+        <members>litify_pm__Litify/of_Accounts</members>
+        <members>litify_pm__Litify/of_Custom_Reports</members>
+        <members>litify_pm__Litify_Intakes/Intake_Funnel1</members>
+        <members>litify_pm__Litify_Intakes/Intake_Funnel11</members>
+        <members>litify_pm__Litify_Intakes/Intake_Funnel111</members>
+        <members>litify_pm__Litify_Intakes/Intake_Funnel1111</members>
+        <members>litify_pm__Litify_Intakes/Intakes_Case_Types1</members>
+        <members>litify_pm__Litify_Intakes/Intakes_Converted_by_Case_Type_30_Days</members>
         <members>litify_pm__Litify_Intakes/Intakes_Converted_by_Owner_This_Year_4C5</members>
+        <members>litify_pm__Litify_Intakes/Intakes_Converted_by_Source_30_Days</members>
         <members>litify_pm__Litify_Intakes/Intakes_Qualified_Not_Converted_toL</members>
+        <members>litify_pm__Litify_Intakes/Intakes_Referred_Out_by_Source_30_Days</members>
+        <members>litify_pm__Litify_Intakes/Intakes_Referred_Out_by_Type_30_Days</members>
+        <members>litify_pm__Litify_Intakes/Intakes_Sources1</members>
+        <members>litify_pm__Litify_Intakes/Intakes_TD_by_Case_Type_30_Days</members>
         <members>litify_pm__Litify_Intakes/Intakes_Turned_Down_This_Year_4nL</members>
+        <members>litify_pm__Litify_Intakes/Intakes_Turned_Down_by_Source_30_Days</members>
+        <members>litify_pm__Litify_Intakes/Intakes_by_Source_Last_30_Days</members>
+        <members>litify_pm__Litify_Intakes/My_Intakes_Converted_2_Months111</members>
+        <members>litify_pm__Litify_Intakes/My_Intakes_Converted_2_Months12</members>
+        <members>litify_pm__Litify_Intakes/My_Intakes_Converted_2_Months13</members>
+        <members>litify_pm__Litify_Intakes/New_Intakes_by_Quarter_Past_2_Years</members>
+        <members>litify_pm__Litify_Intakes/New_Intakes_by_Quarter_Past_2_Years11</members>
+        <members>litify_pm__Litify_Intakes/New_Intakes_by_Quarter_Past_2_Years111</members>
+        <members>litify_pm__Litify_Intakes/New_Intakes_by_Quarter_Past_2_Years112</members>
+        <members>litify_pm__Litify_Intakes/New_Intakes_by_Week_Last_90_Days</members>
         <members>litify_pm__Litify_Matters/Active_Matters_by_Principle_Attorney_oh2</members>
         <members>litify_pm__Litify_Matters/Cases_Closed_by_Attorney_This_Month_eiI</members>
         <members>litify_pm__Litify_Matters/Copy_of_Attorney_Fees_by_Attorney_YTD_LIM</members>
         <members>litify_pm__Litify_Matters/Demands_Sent_by_Attorney_MTD_drL</members>
         <members>litify_pm__Litify_Matters/Matter_Client_Contact_Rpt_Past_7_Days_gws</members>
+        <members>litify_pm__Litify_Matters/Matters_by_Case_Type_and_Source_Month</members>
+        <members>litify_pm__Litify_Matters/Matters_by_Case_Type_and_Source_Qtr</members>
+        <members>litify_pm__Litify_Matters/Matters_by_Case_Type_and_Source_Week</members>
+        <members>litify_pm__Litify_Matters/Matters_by_Case_Type_and_Source_Year</members>
+        <members>litify_pm__Litify_Matters/Matters_by_Matter_Team</members>
         <members>litify_pm__Litify_Matters/My_Active_MattersCaseload_Q23</members>
         <members>litify_pm__Litify_Matters/My_High_Value_Matters_QFF</members>
         <members>litify_pm__Litify_Matters/My_New_Matters_JLR</members>
         <members>litify_pm__Litify_Matters/My_Resolutions_This_Month_e2X</members>
         <members>litify_pm__Litify_Matters/New_Matters_Opened_This_Month_gea</members>
+        <members>litify_pm__Litify_Matters/SOL_Dates_on_Active_Matters</members>
+        <members>litify_pm__Litify_Matters/SOL_Dates_on_Active_Matters1</members>
+        <members>litify_pm__Litify_Matters/SOL_Dates_on_Active_Matters11</members>
+        <members>litify_pm__Litify_Matters/SOL_and_Close_Dates_on_Closed_Matters</members>
         <members>litify_pm__Litify_Matters/Unpaid_Expenses_on_All_Open_Matters_D7M</members>
+        <members>litify_pm__Litify_Referrals/Incoming_Referrals_by_Firm_Past_7_Days</members>
+        <members>litify_pm__Litify_Referrals/Incoming_Referrals_by_Firm_Past_7_Days1</members>
+        <members>litify_pm__Litify_Referrals/Incoming_Referrals_by_Firm_Past_7_Days11</members>
+        <members>litify_pm__Litify_Referrals/Incoming_Referrals_by_Firm_Past_7_Days111</members>
+        <members>litify_pm__Litify_Referrals/Incoming_Referrals_by_Firm_Past_7_Days1111</members>
+        <members>litify_pm__Litify_Referrals/Outgoing_Referrals_by_Handling_Firm</members>
+        <members>litify_pm__Litify_Referrals/Outgoing_Referrals_by_Month_Case_Type</members>
+        <members>litify_pm__Litify_Referrals/Outgoing_Referrals_by_Month_Case_Type1</members>
+        <members>litify_pm__Litify_Referrals/Outgoing_Referrals_by_Month_Case_Type11</members>
+        <members>litify_pm__Litify_Referrals/Outgoing_Referrals_by_Month_Case_Type111</members>
+        <members>litify_pm__Litify_Referrals/Outgoing_Referrals_by_Month_Case_Type1111</members>
+        <members>litify_pm__Litify_Referrals/Outgoing_Referrals_by_Month_Case_Type11111</members>
+        <members>litify_pm__Litify_Referrals/Outgoing_Referrals_by_Month_Case_Type111111</members>
+        <members>litify_pm__Litify_Referrals/Outgoing_Referrals_by_Month_Case_Type1111111</members>
+        <members>litify_pm__Litify_Referrals/Outgoing_Referrals_by_Month_Case_Type11111111</members>
+        <members>litify_pm__Litify_Referrals/Outgoing_Referrals_by_Month_Case_Type111111111</members>
         <name>Report</name>
     </types>
     <types>
+        <members>Intakes_with_or_without_Activities</members>
+        <members>Intakes_with_or_without_Matters</members>
+        <members>Matter_Plans_with_Stages_and_Default_Matter_Tasks</members>
         <members>Reports_Litify</members>
         <name>ReportType</name>
     </types>
