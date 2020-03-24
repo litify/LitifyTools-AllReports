@@ -48,7 +48,6 @@
         <members>Case_Manager/Upcoming_Tasks_EZ4</members>
         <members>Case_Manager/Upcoming_Tasks_by_Assignee_1k0</members>
         <members>Case_Manager/Welcome_Calls_Pending_odo</members>
-        <members>Finance/Expenses_on_All_Open_Matters_by_CaseType_VBP</members>
         <members>Intake_Agent</members>
         <members>Intake_Agent/Average_Calls_per_Intake_by_Intake_Owner</members>
         <members>Intake_Agent/Calls_on_Intakes_Today11</members>
